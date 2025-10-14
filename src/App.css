@@ -1,0 +1,111 @@
+/* Basic reset for React app to work with original Bootstrap styles */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure smooth page transitions by preventing layout shifts */
+#content {
+  position: relative;
+  overflow: hidden;
+  z-index: 1; /* Keep content below header */
+}
+
+/* Content area with manual transitions */
+#content0 {
+  position: relative;
+  width: 100%;
+  z-index: 1; /* Ensure content stays below header during animations */
+}
+
+/* Ensure header/navbar stays above content during transitions */
+.navbar,
+.navbar-fixed-top {
+  z-index: 1030 !important; /* Bootstrap's default navbar z-index, ensuring it stays on top */
+}
+
+/* Manual CSS transitions for content - more reliable than View Transitions API */
+.content-transition-out {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease-in, transform 0.4s ease-in;
+}
+
+.content-transition-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+/* Custom progress bar colors for technologies */
+.progressBar[data-tech="typescript"] div {
+  background-color: #3178c6 !important;
+}
+
+.progressBar[data-tech="javascript"] div {
+  background-color: #f7df1e !important;
+}
+
+.progressBar[data-tech="react"] div {
+  background-color: #61dafb !important;
+}
+
+.progressBar[data-tech="nodejs"] div {
+  background-color: #339933 !important;
+}
+
+.progressBar[data-tech="angular"] div {
+  background-color: #e23237 !important;
+}
+
+.progressBar[data-tech="jasmine"] div {
+  background-color: #8a4182 !important;
+}
+
+.progressBar[data-tech="css3"] div {
+  background-color: #1572b6 !important;
+}
+
+.progressBar[data-tech="html5"] div {
+  background-color: #e34f26 !important;
+}
+
+.progressBar[data-tech="git"] div {
+  background-color: #f05032 !important;
+}
+
+.progressBar[data-tech="chrome"] div {
+  background-color: #4285f4 !important;
+}
+
+.progressBar[data-tech="jira"] div {
+  background-color: #0052cc !important;
+}
+
+/* Fix for contact page footer positioning - ensure content takes full height */
+#contact {
+  min-height: calc(
+    100vh - 320px
+  ); /* Full viewport height minus navbar (160px) and footer (160px) */
+  display: flex;
+  align-items: center;
+}
+
+#contact .container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 40px;
+}
+
+/* Fix for footer layout - spread span3 elements to left and right */
+#footer {
+  align-items: center;
+  display: flex;
+  /* height: 160px; */
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}

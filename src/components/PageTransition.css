@@ -1,0 +1,56 @@
+/* Page Transition Animations */
+.page-transition {
+  width: 100%;
+  position: relative;
+}
+
+.page-content {
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: opacity;
+}
+
+.page-transition.fadeOut .page-content {
+  opacity: 0;
+}
+
+.page-transition.fadeIn .page-content {
+  opacity: 1;
+}
+
+/* Simple fade-in animation for new page content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to all pages */
+.page-transition.fadeIn .page-content {
+  animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Remove page-specific animations - use consistent fade for all */
+.start-page .page-transition.fadeIn .page-content,
+.portfolio-page .page-transition.fadeIn .page-content,
+.about-page .page-transition.fadeIn .page-content,
+.contact-page .page-transition.fadeIn .page-content {
+  animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Smooth hover animations for navigation links */
+.nav a {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  transform: translateY(-2px);
+}
+
+/* Performance optimizations */
+.page-transition {
+  transform: translateZ(0); /* Enable hardware acceleration */
+  backface-visibility: hidden;
+}

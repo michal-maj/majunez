@@ -1,0 +1,742 @@
+{
+  "sections": [
+    {
+      "id": "visualisation",
+      "title": "Wizualizacje",
+      "items": [
+        {
+          "id": "restauracja",
+          "title": "Restauracja - Wizualizacja",
+          "thumbnail": "/img/gallery/thumbs/wiz_22.jpg",
+          "image": "/img/gallery/img/wiz_22.jpg",
+          "description": "Wizualizacja sali restauracji / stołówki w Łodzi wraz z kuchnią na podstawie wytycznych klienta oraz własnej wizji.",
+          "details": "Czerwono-biało-granatowe barwy zostały wykorzystane tak, by podkreślić styl nowej restauracji. Wizualizacja oprócz sali głównej zawiera również podstawowy wygląd kuchni i zaplecza.",
+          "hasDetails": true,
+          "link": "#?id=grafika1"
+        },
+        {
+          "id": "infosys_event",
+          "title": "Infosys - Wizualizacja Eventu",
+          "thumbnail": "/img/gallery/thumbs/wiz_3.jpg",
+          "image": "/img/gallery/img/wiz_3.jpg"
+        },
+        {
+          "id": "rossmann_scena",
+          "title": "Rossmann - Wizualizacja Sceny",
+          "thumbnail": "/img/gallery/thumbs/wiz_4.jpg",
+          "image": "/img/gallery/img/wiz_4.jpg"
+        },
+        {
+          "id": "lotnisko_lublinek",
+          "title": "Lotnisko Lublinek",
+          "thumbnail": "/img/gallery/thumbs/wiz_5.jpg",
+          "image": "/img/gallery/img/wiz_5.jpg",
+          "details": "Wizualizacja na event z okazji otwarcia nowego terminalu"
+        },
+        {
+          "id": "palac",
+          "title": "Pałac",
+          "thumbnail": "/img/gallery/thumbs/wiz_7.jpg",
+          "image": "/img/gallery/img/wiz_7.jpg",
+          "details": "Manipulacja zdjęciem w Photoshopie"
+        },
+        {
+          "id": "bmw_salon",
+          "title": "BMW - Otwarcie salonu",
+          "thumbnail": "/img/gallery/thumbs/wiz_1.jpg",
+          "image": "/img/gallery/img/wiz_1.jpg",
+          "description": "Wizualizacja rozstawienia elementów dekoracji i sceny w nowym salonie BMW / Mini w Łodzi.",
+          "details": "Wizualizacja rozstawienia elementów dekoracji i sceny w nowym salonie BMW / Mini w Łodzi.",
+          "hasDetails": true,
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "sala_palac",
+          "title": "Sala w pałacu",
+          "thumbnail": "/img/gallery/thumbs/wiz_8.jpg",
+          "image": "/img/gallery/img/wiz_8.jpg",
+          "description": "Sala w pałacu pod Łodzią - na bazie zdjęcia.",
+          "hasDetails": true,
+          "details": "Wizualizacja"
+        },
+        {
+          "id": "wiz_13",
+          "title": "Namioty z wyposażeniem",
+          "thumbnail": "/img/gallery/thumbs/wiz_13.jpg",
+          "image": "/img/gallery/img/wiz_13.jpg",
+          "details": "Wizualizacja"
+        },
+        {
+          "id": "kerakoll_stoisko",
+          "title": "Kerakoll - Stoisko",
+          "thumbnail": "/img/gallery/thumbs/wiz_12.jpg",
+          "image": "/img/gallery/img/wiz_12.jpg",
+          "description": "Wizualizacja stoiska wystawienniczego",
+          "details": "Wizualizacja stoiska wystawienniczego",
+          "hasDetails": true,
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "namioty",
+          "title": "Namioty z wyposażeniem",
+          "thumbnail": "/img/gallery/thumbs/wiz_18.jpg",
+          "image": "/img/gallery/img/wiz_18.jpg",
+          "description": "Namioty z wyposażeniem.",
+          "details": "visualisation"
+        },
+        {
+          "id": "wiz_23",
+          "title": "Awesome portfolio item",
+          "thumbnail": "/img/gallery/thumbs/wiz_23.jpg",
+          "image": "/img/gallery/img/wiz_23.jpg",
+          "details": "visualisation"
+        },
+        {
+          "id": "wiz_29",
+          "title": "Awesome portfolio item",
+          "thumbnail": "/img/gallery/thumbs/wiz_29.jpg",
+          "image": "/img/gallery/img/wiz_29.jpg",
+          "details": "visualisation"
+        }
+      ]
+    },
+    {
+      "id": "animation",
+      "title": "Animacje",
+      "items": [
+        {
+          "id": "alicja",
+          "title": "Alicja w Krainie Czarów",
+          "thumbnail": "/img/gallery/thumbs/infosys_alicja_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=Zbpl75y_r2k",
+          "description": "Był to jeden z ciekawszych projektów ze względu na temat, czas i swobodę działania. Animacja została przygotowana na potrzeby eventu dla Infosys w technikach 2D / 3D z wykorzystaniem 3ds Max i After Effects. Stworzona w stosunkowo krótkim czasie (około 3-4 dni). Pomysł i scenariusz własny (z wyjątkiem tekstów). Modele częściowo zapożyczone z darmowych bibliotek internetowych zmodyfikowane na potrzeby animacji i scen.",
+          "details": "Był to jeden z ciekawszych projektów ze względu na temat, czas i swobodę działania. Animacja została przygotowana na potrzeby eventu dla Infosys w technikach 2D / 3D z wykorzystaniem 3ds Max i After Effects. Stworzona w stosunkowo krótkim czasie (około 3-4 dni). Pomysł i scenariusz własny (z wyjątkiem tekstów). Modele częściowo zapożyczone z darmowych bibliotek internetowych zmodyfikowane na potrzeby animacji i scen.",
+          "hasVideo": true,
+          "hasDetails": true
+        },
+        {
+          "id": "callebaut_logo",
+          "title": "Callebaut - Logo i pływające czekoladki",
+          "thumbnail": "/img/gallery/thumbs/callebaut_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=NWXrkQZoVos",
+          "details": "Animacja stworzona głównie w 3ds Max. Miała ona cieszyć oko w tle konferencji a propos 100 rocznicy Callebaut",
+          "hasVideo": true
+        },
+        {
+          "id": "infosys_blackwhite",
+          "title": "Infosys - Black and White",
+          "thumbnail": "/img/gallery/thumbs/infosys_blackwhite_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=hQfSLxZTJt4",
+          "description": "Animacja nawiązująca stylem oraz kolorystyką do czerni i bieli. Starałem się ukazać w niej najpopularniejsze czarno-białe motywy w sposób ciekawy i designerski. Zawrzeć za razem jakiś pomysł i motyw przewodni nie zapominając przy tym, że całość ma być wyświetlona podczas imprezy jako \"wstawka\". Do kompletu zaprojektowane zostały plakaty w tym samym klimacie.",
+          "details": "Animacja nawiązująca stylem oraz kolorystyką do czerni i bieli. Starałem się ukazać w niej najpopularniejsze czarno-białe motywy w sposób ciekawy i designerski. Zawrzeć za razem jakiś pomysł i motyw przewodni nie zapominając przy tym, że całość ma być wyświetlona podczas imprezy jako \"wstawka\". Do kompletu zaprojektowane zostały plakaty w tym samym klimacie.",
+          "hasVideo": true,
+          "hasDetails": true,
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "budmat_drift",
+          "title": "Budmat Drift Show - Reklama",
+          "thumbnail": "/img/gallery/thumbs/budmat_promo_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=5NFENdz1f9I",
+          "details": "Reklama promująca zawody driftingowe Budmat Drift Show w 2012 roku zoraganizowane w Płocku. Całość wykonałem w Adobe After Effects.",
+          "hasVideo": true
+        },
+        {
+          "id": "budmat_mapa",
+          "title": "Animowana Mapa Wyścigów",
+          "thumbnail": "/img/gallery/thumbs/budmat_mapa_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=5NFENdz1f9I",
+          "description": "Mapa zanimowana w 3D z wyszczególnioną trasą przejazdu drifterów stworzona specjalnie na zawody Budmat Drift Show. W pakiecie animacji zawierały się również filmy wyświetlane na dużym telebimie - w tym agenda mistrzostw. Informacje o zawodnikach i punktacja na żywo.",
+          "details": "Mapa zanimowana w 3D z wyszczególnioną trasą przejazdu drifterów stworzona specjalnie na zawody Budmat Drift Show. W pakiecie animacji zawierały się również filmy wyświetlane na dużym telebimie - w tym agenda mistrzostw. Informacje o zawodnikach i punktacja na żywo.",
+          "hasVideo": true,
+          "hasDetails": true
+        },
+        {
+          "id": "moulin_rouge",
+          "title": "Motyw z Moulin Rouge",
+          "thumbnail": "/img/gallery/thumbs/sonoco_vivelafrance_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=jjAE8fmO0SM",
+          "description": "Animacja zawierająca znane motywy francuskie ;) , takie jak wieża Eiffla, Moulin Rouge, Wino, Łuk Triumfalny itp. Zrobiłem ją w stylu nieco rysunkowym, szkicowym co sprawiło mi sporą przyjemność. Wszystkie rysunki wykonałem własnoręcznie, a następnie obrobiłem cyfrowo i zanimowałem w After Effects.",
+          "details": "Animacja zawierająca znane motywy francuskie ;) , takie jak wieża Eiffla, Moulin Rouge, Wino, Łuk Triumfalny itp. Zrobiłem ją w stylu nieco rysunkowym, szkicowym co sprawiło mi sporą przyjemność. Wszystkie rysunki wykonałem własnoręcznie, a następnie obrobiłem cyfrowo i zanimowałem w After Effects.",
+          "hasVideo": true,
+          "hasDetails": true,
+          "link": "#?id=moulinrouge"
+        },
+        {
+          "id": "dell_latino",
+          "title": "Dell - Latino Party",
+          "thumbnail": "/img/gallery/thumbs/dell_latinoparty_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=8EuQwC1ZuO8",
+          "details": "Animacja na imprezę w stylu Latino. Uważam, że udało mi się zrobić ją w bardzo pozytywnym klimacie ;) . Bębniarze, tancerki i dobre wibracje. Przy pomocy programu After Effects.",
+          "hasVideo": true
+        },
+        {
+          "id": "castorama_10",
+          "title": "10-lecie Castoramy",
+          "thumbnail": "/img/gallery/thumbs/castorama_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=4aBTlCzvUdY",
+          "details": "Animacja przygotowana na jubileusz 10-lecia Castoramy. Oprócz wariacji z logotypem wykorzystana została scena rodem z czołówki 20 Century Fox :)",
+          "hasVideo": true
+        },
+        {
+          "id": "vabank",
+          "title": "Vabank - Kwinto i spółka",
+          "thumbnail": "/img/gallery/thumbs/vabank_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=Qi6G9enyYdY",
+          "details": "Napad na bank ze wstawkami z filmu przedstawiany na kształt starszej animacji.",
+          "hasVideo": true
+        },
+        {
+          "id": "bre_nagroda",
+          "title": "BRE - Animacja Nagrody",
+          "thumbnail": "/img/gallery/thumbs/bre_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=7WzNGnhG8YI",
+          "details": "Bardzo stara animacja wykorzystana podczas wręczenia nagród w głównej siedzibie BRe Banku w Warszawie. W całości stworzona w 3ds Maxie.",
+          "hasVideo": true
+        },
+        {
+          "id": "castorama_budynek",
+          "title": "Zburzenie budynku",
+          "thumbnail": "/img/gallery/thumbs/castorama_budynek_anim.jpg",
+          "video": "https://www.youtube.com/watch?v=E1JZZT8hAiU",
+          "details": "Animacja przemiany budynku fabryki ciastek na budynek Castoramy w Łodzi. Efekt nie jest może fotorealistyczny, ale miał właśnie trzymać taki klimat :)",
+          "hasVideo": true
+        },
+        {
+          "id": "dell_boogie",
+          "title": "Dell - Disco Boogie",
+          "thumbnail": "/img/gallery/thumbs/dell_boogie_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=tmR34BL1ovs",
+          "details": "Animacja na imprezę w stylu Disco",
+          "hasVideo": true
+        },
+        {
+          "id": "rossmann_expo",
+          "title": "Wizualizacja sali Expo",
+          "thumbnail": "/img/gallery/thumbs/rossmann_expo_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=nIpubEjdOSg",
+          "details": "Animacja zwizualizowanej sali Expo wraz ze stołami na parkiecie.",
+          "hasVideo": true
+        },
+        {
+          "id": "bmw_tlo",
+          "title": "BMW - Animowane tło",
+          "thumbnail": "/img/gallery/thumbs/bmw_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=fOYtsDw8eFA",
+          "details": "Jedna z animacji (krótki wycinek), która posłużyła jako tło konferencji z okazji otwarcia nowego salonu BMW.",
+          "hasVideo": true
+        },
+        {
+          "id": "ckw_logo",
+          "title": "Animacja Logo i Budynku",
+          "thumbnail": "/img/gallery/thumbs/ckw_anim.jpg",
+          "video": "https://www.youtube.com/watch?v=Ky-BfWj0LMY",
+          "details": "Oprócz wariacji z logotypem CKW / MTŁ zamieściłem również obracajacy się model budynku hali Międzynarodowych Targów Łódzkich.",
+          "hasVideo": true
+        },
+        {
+          "id": "ogien_symulacja",
+          "title": "Symulacja spadających ogni",
+          "thumbnail": "/img/gallery/thumbs/ogien_anim.jpg",
+          "video": "http://www.youtube.com/watch?v=ARNEyy0SVMg",
+          "details": "Przykład animacji wykorzystany w jednym z pokazów Miss Polonia w Łodzi.",
+          "hasVideo": true
+        }
+      ]
+    },
+    {
+      "id": "logotype",
+      "title": "Logotypy",
+      "items": [
+        {
+          "id": "majunez_logo",
+          "title": "Majunez - Michał Maj Portfolio",
+          "thumbnail": "/img/gallery/thumbs/log_1.jpg",
+          "image": "/img/gallery/img/log_1.jpg",
+          "details": "Logo na potrzeby mojego portfolio :)"
+        },
+        {
+          "id": "partnerstwo",
+          "title": "Partnerstwo - Środowisko dla Rozwoju",
+          "thumbnail": "/img/gallery/thumbs/log_2.jpg",
+          "image": "/img/gallery/img/log_2.jpg",
+          "description": "Pierwsze miejsce w konkursie zorganizowanym przez Generalną Dyrekcję ochrony Środowiska.",
+          "details": "Pierwsze miejsce w konkursie zorganizowanym przez Generalną Dyrekcję ochrony Środowiska.",
+          "hasDetails": true,
+          "link": "#?id=srodowiskodlarozwoju"
+        },
+        {
+          "id": "aplan_logo",
+          "title": "Aplan - agencja reklamowa",
+          "thumbnail": "/img/gallery/thumbs/log_3.jpg",
+          "image": "/img/gallery/img/log_3.jpg",
+          "details": "Logo stworzone dla agencji reklamowej Aplan wraz z layoutem strony.",
+          "link": "#?id=aplan"
+        },
+        {
+          "id": "prawnik_partner",
+          "title": "Prawnik Partner",
+          "thumbnail": "/img/gallery/thumbs/log_4.jpg",
+          "image": "/img/gallery/img/log_4.jpg",
+          "details": "Logotyp dla portalu prawnikpartner.pl. Dwie litery \"P\" tworzą paragraf."
+        },
+        {
+          "id": "dawid_kubiak",
+          "title": "Dawid Kubiak - webmaster",
+          "thumbnail": "/img/gallery/thumbs/log_5.jpg",
+          "image": "/img/gallery/img/log_5.jpg",
+          "details": "Strzałka w logotypie zawiera w sobie litery \"D\" i \"K\" od inicjałów webmastera.",
+          "link": "#?id=webmaster"
+        },
+        {
+          "id": "estate_consulting",
+          "title": "Estate Consulting",
+          "thumbnail": "/img/gallery/thumbs/log_6.jpg",
+          "image": "/img/gallery/img/log_6.jpg",
+          "details": "Logotyp dla firmy zajmującej się nieruchomościami."
+        },
+        {
+          "id": "go_planet",
+          "title": "Go Planet",
+          "thumbnail": "/img/gallery/thumbs/log_7.jpg",
+          "image": "/img/gallery/img/log_7.jpg",
+          "details": "Logo sieci hoteli.",
+          "link": "#?id=goplanet"
+        },
+        {
+          "id": "multimedia_icons",
+          "title": "Zestaw ikon multimedialnych",
+          "thumbnail": "/img/gallery/thumbs/log_8.jpg",
+          "image": "/img/gallery/img/log_8.jpg",
+          "details": "Ikony stworzone na potrzeby serwisu z multimediami - filmami, muzyką, grami itp."
+        }
+      ]
+    },
+    {
+      "id": "print",
+      "title": "Poligrafia",
+      "items": [
+        {
+          "id": "barry_lada",
+          "title": "Barry Callebaut - Lada",
+          "thumbnail": "/img/gallery/thumbs/barry_lada.jpg",
+          "image": "/img/gallery/img/barry_lada.jpg",
+          "details": "Projekt baneru na ladę Barry Callebaut - producenta czekolady."
+        },
+        {
+          "id": "biedronka_karty",
+          "title": "JMD - Biedronka - Karty drużyn",
+          "thumbnail": "/img/gallery/thumbs/biedronka_karty.jpg",
+          "image": "/img/gallery/img/biedronka_karty.jpg",
+          "details": "Karty drużyn zaprojektowane na zawody siatkarskie dla pracowników."
+        },
+        {
+          "id": "biedronka_lada",
+          "title": "JMD - Biedronka - Lada",
+          "thumbnail": "/img/gallery/thumbs/biedronka_lada.jpg",
+          "image": "/img/gallery/img/biedronka_lada.jpg",
+          "details": "Baner na ladę, na zawody siatkarskie dla pracowników."
+        },
+        {
+          "id": "voucher",
+          "title": "Voucher",
+          "thumbnail": "/img/gallery/thumbs/a_voucher.jpg",
+          "image": "/img/gallery/img/a_voucher.jpg",
+          "details": "Przykładowy projekt vouchera na sesję fotograficzną."
+        },
+        {
+          "id": "bsh_kingsize",
+          "title": "BSH - Okładka pod ofertę",
+          "thumbnail": "/img/gallery/thumbs/bsh_kingsize.jpg",
+          "image": "/img/gallery/img/bsh_kingsize.jpg",
+          "details": "Okładka ofertowa dla agencji eventowej."
+        },
+        {
+          "id": "budmat_zaproszenie",
+          "title": "Budmat - Zaproszenie Specjalne",
+          "thumbnail": "/img/gallery/thumbs/budmat_driftshow_zapr.gif",
+          "image": "/img/gallery/img/budmat_driftshow_zapr.gif",
+          "details": "Projekt na imprezę driftingową. W kopercie został wycięty otwór, przez który przy wysuwaniu zaproszenia widać ogień zostawiany przez auto.",
+          "link": "#?id=budmat"
+        },
+        {
+          "id": "budmat_plakat",
+          "title": "Budmat - Propozycja plakatu",
+          "thumbnail": "/img/gallery/thumbs/budmat_plakat_v6.jpg",
+          "image": "/img/gallery/img/budmat_plakat_v6.jpg",
+          "details": "Propozycja na imprezę Budmat Drift Show"
+        },
+        {
+          "id": "restauracja_tablica",
+          "title": "Restauracja - Tablica Menu",
+          "thumbnail": "/img/gallery/thumbs/restauracja_tablica.jpg",
+          "image": "/img/gallery/img/restauracja_tablica.jpg"
+        },
+        {
+          "id": "dell_film_poli",
+          "title": "Dell - Gala Filmowa",
+          "thumbnail": "/img/gallery/thumbs/dell_film_poli.jpg",
+          "image": "/img/gallery/img/dell_film_poli.jpg",
+          "details": "Plakat, zaproszenie oraz elementy wystroju wnętrza na galę filmową"
+        },
+        {
+          "id": "dell_latino_plakaty",
+          "title": "Dell - Latino Party",
+          "thumbnail": "/img/gallery/thumbs/dell_latino_plakaty.jpg",
+          "image": "/img/gallery/img/dell_latino_plakaty.jpg",
+          "details": "Projekty plakatów na imprezę Latino Party"
+        },
+        {
+          "id": "enea_disco_boogie",
+          "title": "Enea - Disco Boogie",
+          "thumbnail": "/img/gallery/thumbs/enea_discoboogie_zaproszenie.jpg",
+          "image": "/img/gallery/img/enea_discoboogie_zaproszenie.jpg",
+          "details": "Zaproszenie w stylu Disco Boogie"
+        },
+        {
+          "id": "enea_zaproszenie",
+          "title": "Enea - Latino Party",
+          "thumbnail": "/img/gallery/thumbs/enea_zaproszenie.jpg",
+          "image": "/img/gallery/img/enea_zaproszenie.jpg",
+          "details": "Zaproszenie w stylu Latino Party"
+        },
+        {
+          "id": "fabryczna_folder",
+          "title": "Łódź Fabryczna - Folder",
+          "thumbnail": "/img/gallery/thumbs/fabryczna_folder.jpg",
+          "image": "/img/gallery/img/fabryczna_folder.jpg",
+          "description": "Folder - oferta, zaprojektowany z myślą o evencie na zamknięcie dworca Łódź Fabryczna.",
+          "details": "Folder - oferta, zaprojektowany z myślą o evencie na zamknięcie dworca Łódź Fabryczna.",
+          "hasDetails": true,
+          "link": "#?id=fabryczna"
+        },
+        {
+          "id": "fujitsu_bilet",
+          "title": "Fujitsu - Bilet",
+          "thumbnail": "/img/gallery/thumbs/fujitsu_bilet.jpg",
+          "image": "/img/gallery/img/fujitsu_bilet.jpg",
+          "details": "Bilet wstępu na sportowy piknik rodzinny Fujitsu"
+        },
+        {
+          "id": "italtecnica_teczka",
+          "title": "Italtecnica - Teczka",
+          "thumbnail": "/img/gallery/thumbs/italtecnica_teczka.jpg",
+          "image": "/img/gallery/img/italtecnica_teczka.jpg",
+          "description": "Teczka stworzona dla firmy Italtecnica. Zaprojektowałem unikalny wykrojnik, dzięki czemu teczka ma indywidualny wyglad. Zastosowałem również folię mat i lakier wybiórczy UV. Do kompletu w stylu teczki zaprojektowane wizytówki.",
+          "details": "Teczka stworzona dla firmy Italtecnica. Zaprojektowałem unikalny wykrojnik, dzięki czemu teczka ma indywidualny wyglad. Zastosowałem również folię mat i lakier wybiórczy UV. Do kompletu w stylu teczki zaprojektowane wizytówki.",
+          "hasDetails": true,
+          "link": "#?id=italtecnica"
+        },
+        {
+          "id": "kalonka_szprychowka",
+          "title": "Tour de Kalonka - Szprychówka",
+          "thumbnail": "/img/gallery/thumbs/kalonka_szprychowka.jpg",
+          "image": "/img/gallery/img/kalonka_szprychowka.jpg",
+          "details": "Szprychówka rowerowa z okazji wyścigu Tour de Kalonka 2012. Dodatkowo banery na scenę i ogłoszenie do gazety."
+        },
+        {
+          "id": "kerakoll_konwencja",
+          "title": "Kerakoll - Kreacja",
+          "thumbnail": "/img/gallery/thumbs/kerakoll_konwencja_kreacja.jpg",
+          "image": "/img/gallery/img/kerakoll_konwencja_kreacja.jpg",
+          "details": "Propozycja kreacji nowego wizerunku marki Kerakoll na przykładzie projektu materiałów biurowych - teczki, torby papierowej, długopisu i wizytówki"
+        },
+        {
+          "id": "barrycallebaut_konwencja",
+          "title": "Barry Callebaut - Kreacja",
+          "thumbnail": "/img/gallery/thumbs/barrycallebaut_konwencja_kreacja.jpg",
+          "image": "/img/gallery/img/barrycallebaut_konwencja_kreacja.jpg",
+          "details": "Propozycja kreacji na event dla Barry Callebaut na przykładzie projektu materiałów biurowych - teczki, torby papierowej, długopisu i wizytówki"
+        },
+        {
+          "id": "ksawerow_opaska",
+          "title": "Opaska na kubek",
+          "thumbnail": "/img/gallery/thumbs/ksawerow_opaska_kubek.jpg",
+          "image": "/img/gallery/img/ksawerow_opaska_kubek.jpg",
+          "details": "Opaska na kubek zaprojektowana na podstawie stworzonego przeze mnie wykrojnika odpowiednio dopasowana do kubka termicznego."
+        },
+        {
+          "id": "lada_slub",
+          "title": "Lada weselna",
+          "thumbnail": "/img/gallery/thumbs/lada_slub.jpg",
+          "image": "/img/gallery/img/lada_slub.jpg",
+          "details": "Projekt lady weselnej dla DJa. Motyw z nutami w kształcie młodej pary."
+        },
+        {
+          "id": "fujitsu_medale",
+          "title": "Fujitsu - Medale",
+          "thumbnail": "/img/gallery/thumbs/fujitsu_medale.jpg",
+          "image": "/img/gallery/img/fujitsu_medale.jpg",
+          "details": "Medale z nałożonym nadrukiem."
+        },
+        {
+          "id": "origami_kwiaty",
+          "title": "Origami - kwiaty",
+          "thumbnail": "/img/gallery/thumbs/origami_kwiaty.jpg",
+          "image": "/img/gallery/img/origami_kwiaty.jpg",
+          "details": "Róże Kawasaki z origami."
+        },
+        {
+          "id": "infosys_blackwhite_plakat",
+          "title": "Infosys - Black & White Plakat",
+          "thumbnail": "/img/gallery/thumbs/infosys_blackwhite_plakat.jpg",
+          "image": "/img/gallery/img/infosys_blackwhite_plakat.jpg",
+          "details": "Plakat promujący imprezę w stylu black & white",
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "infosys_blackwhite_plakat1",
+          "title": "Infosys - Black & White Plakat",
+          "thumbnail": "/img/gallery/thumbs/infosys_blackwhite_plakat1.jpg",
+          "image": "/img/gallery/img/infosys_blackwhite_plakat1.jpg",
+          "details": "Propozycja plakatu w stylu black & white",
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "infosys_blackwhite_plakat2",
+          "title": "Infosys - Black & White Plakat",
+          "thumbnail": "/img/gallery/thumbs/infosys_blackwhite_plakat2.jpg",
+          "image": "/img/gallery/img/infosys_blackwhite_plakat2.jpg",
+          "details": "Propozycja plakatu w stylu black & white",
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "infosys_blackwhite_plakat3",
+          "title": "Infosys - Black & White Plakat",
+          "thumbnail": "/img/gallery/thumbs/infosys_blackwhite_plakat3.jpg",
+          "image": "/img/gallery/img/infosys_blackwhite_plakat3.jpg",
+          "details": "Propozycja plakatu w stylu black & white",
+          "link": "#?id=grafika2"
+        },
+        {
+          "id": "goralski_plakat",
+          "title": "Plakat - Motyw góralski",
+          "thumbnail": "/img/gallery/thumbs/goralski_plakat.jpg",
+          "image": "/img/gallery/img/goralski_plakat.jpg",
+          "details": "Plakat w stylu góralskim."
+        },
+        {
+          "id": "pge_ekstremalny",
+          "title": "Impreza Sportowo-Ekstremalna",
+          "thumbnail": "/img/gallery/thumbs/pge_ekstremalny_plakat.jpg",
+          "image": "/img/gallery/img/pge_ekstremalny_plakat.jpg",
+          "details": "Plakat"
+        },
+        {
+          "id": "vabank_poligrafia",
+          "title": "Vabank - Materiały poligraficzne",
+          "thumbnail": "/img/gallery/thumbs/vabank_poligrafia.jpg",
+          "image": "/img/gallery/img/vabank_poligrafia.jpg",
+          "details": "Materiały poligraficzne dla filmu Vabank."
+        },
+        {
+          "id": "infosys_glamour",
+          "title": "Infosys - Plakat Glamour & Glitter",
+          "thumbnail": "/img/gallery/thumbs/infosys_glamourglitter_plakat.jpg",
+          "image": "/img/gallery/img/infosys_glamourglitter_plakat.jpg",
+          "details": "Plakat w klimacie glamour."
+        },
+        {
+          "id": "dell_boogie_plakat",
+          "title": "Dell - Plakat na imprezę disco",
+          "thumbnail": "/img/gallery/thumbs/dell_boogie_plakat.jpg",
+          "image": "/img/gallery/img/dell_boogie_plakat.jpg"
+        },
+        {
+          "id": "polskawoda_piknik",
+          "title": "Plakat na piknik rodzinny",
+          "thumbnail": "/img/gallery/thumbs/polskawoda_piknikrodzinny_plakat.jpg",
+          "image": "/img/gallery/img/polskawoda_piknikrodzinny_plakat.jpg"
+        },
+        {
+          "id": "sonoco_adventure",
+          "title": "Plakat na imprezę ekstremalną",
+          "thumbnail": "/img/gallery/thumbs/sonoco_adventureteam_plakat.jpg",
+          "image": "/img/gallery/img/sonoco_adventureteam_plakat.jpg",
+          "details": "Plakat został stworzony częsciowo odręcznie - wszystkie rysunki rysowane ołówkiem - kolorowane w Photoshopie. Dla Sonoco"
+        },
+        {
+          "id": "sonoco_ekstremalne_zabezpieczenie",
+          "title": "Plakat na imprezę ekstremalną",
+          "thumbnail": "/img/gallery/thumbs/sonoco_ekstremalnezabezpieczenie_plakat.jpg",
+          "image": "/img/gallery/img/sonoco_ekstremalnezabezpieczenie_plakat.jpg",
+          "details": "Sonoco"
+        },
+        {
+          "id": "sonoco_ekstremalny",
+          "title": "Sonoco - Plakat Ekstremalny",
+          "thumbnail": "/img/gallery/thumbs/sonoco_ekstremalny_plakat.jpg",
+          "image": "/img/gallery/img/sonoco_ekstremalny_plakat.jpg",
+          "details": "Plakat w klimacie ekstremalnym."
+        },
+        {
+          "id": "restauracja_plakaty",
+          "title": "Restauracja - Propozycje plakatów",
+          "thumbnail": "/img/gallery/thumbs/restauracja_plakaty.jpg",
+          "image": "/img/gallery/img/restauracja_plakaty.jpg"
+        },
+        {
+          "id": "skra_sciana",
+          "title": "Skra - Projekt na Ścianę klubu",
+          "thumbnail": "/img/gallery/thumbs/skra_sciana1.jpg",
+          "image": "/img/gallery/img/skra_sciana1.jpg",
+          "details": "Szkic przczoły autorstwa mojego przyjaciela - edytowany i malowany przeze mnie.",
+          "link": "#?id=skra"
+        },
+        {
+          "id": "wyjatkowyprezent_lada",
+          "title": "Projekt Ścianki i lady",
+          "thumbnail": "/img/gallery/thumbs/wyjatkowyprezent_lada_wiz.jpg",
+          "image": "/img/gallery/img/wyjatkowyprezent_lada_wiz.jpg",
+          "details": "Pod imprezę dla \"Wyjątkowego Prezentu\""
+        },
+        {
+          "id": "skra_koszulki",
+          "title": "Skra - Koszulki",
+          "thumbnail": "/img/gallery/thumbs/skra_koszulki.jpg",
+          "image": "/img/gallery/img/skra_koszulki.jpg",
+          "details": "Projekt koszulek dla Skry Bełchatów w związku z kwalifikcją do Final Four",
+          "link": "#?id=skra"
+        },
+        {
+          "id": "callebaut_stoisko",
+          "title": "Stoiska",
+          "thumbnail": "/img/gallery/thumbs/callebaut_stoisko.jpg",
+          "image": "/img/gallery/img/callebaut_stoisko.jpg",
+          "details": "Zaprojektowane na imprezę 100 rocznicy firmy Callebaut",
+          "link": "#?id=skra"
+        },
+        {
+          "id": "lukato_wizytowka",
+          "title": "Wizytówka - Biżuteria artystyczna",
+          "thumbnail": "/img/gallery/thumbs/lukato_wizytowka.jpg",
+          "image": "/img/gallery/img/lukato_wizytowka.jpg",
+          "details": "Lukato"
+        },
+        {
+          "id": "lotto_mikolajki",
+          "title": "Lotto - Zaproszenie",
+          "thumbnail": "/img/gallery/thumbs/lotto_mikolajki_zaproszenie.jpg",
+          "image": "/img/gallery/img/lotto_mikolajki_zaproszenie.jpg",
+          "details": "Zaproszenie na mikołajki"
+        },
+        {
+          "id": "lotto_latino",
+          "title": "Lotto - Zaproszenie",
+          "thumbnail": "/img/gallery/thumbs/lotto_latinoparty_zaproszenie.jpg",
+          "image": "/img/gallery/img/lotto_latinoparty_zaproszenie.jpg",
+          "details": "Zaproszenie na imprezę w stylu Latino"
+        },
+        {
+          "id": "xxx_zaproszenie",
+          "title": "Zaproszenie Zagadka",
+          "thumbnail": "/img/gallery/thumbs/xxx_zaproszenie.jpg",
+          "image": "/img/gallery/img/xxx_zaproszenie.jpg",
+          "details": "Zaprojektowane w formie zagadki razem ze stroną internetową"
+        },
+        {
+          "id": "dell_grandopening",
+          "title": "Dell - Zaproszenie na otwarcie",
+          "thumbnail": "/img/gallery/thumbs/dell_grandopening_zaproszenie.jpg",
+          "image": "/img/gallery/img/dell_grandopening_zaproszenie.jpg"
+        },
+        {
+          "id": "guestcontrol_karty",
+          "title": "Guestcontrol - Karty",
+          "thumbnail": "/img/gallery/thumbs/guestcontrol_karty.jpg",
+          "image": "/img/gallery/img/guestcontrol_karty.jpg",
+          "details": "Projekt kart - identyfikatorów"
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "title": "Internet",
+      "items": [
+        {
+          "id": "aplan_web",
+          "title": "Aplan - strona agencji reklamowej",
+          "thumbnail": "/img/gallery/thumbs/aplan_web.jpg",
+          "image": "/img/gallery/img/aplan_web.jpg",
+          "details": "Layout strony dla agecji reklamowej Aplan, wraz ze stworzeniem logotypu.",
+          "link": "#?id=aplan"
+        },
+        {
+          "id": "btpharma_web",
+          "title": "Bt Pharma - Layout",
+          "thumbnail": "/img/gallery/thumbs/btpharma_web.jpg",
+          "image": "/img/gallery/img/btpharma_web.jpg",
+          "details": "Layout dla apteki internetowej."
+        },
+        {
+          "id": "formart_web",
+          "title": "Formart - Strona internetowa",
+          "thumbnail": "/img/gallery/thumbs/formart_web.jpg",
+          "image": "/img/gallery/img/formart_web.jpg",
+          "details": "Strona internetowa dla fundacji Formart."
+        },
+        {
+          "id": "garnier_banner",
+          "title": "Garnier - Baner",
+          "thumbnail": "/img/gallery/thumbs/garnier_web.jpg",
+          "flash": "/img/gallery/img/garnier_web.swf",
+          "details": "Baner Flash."
+        },
+        {
+          "id": "goplanet_web",
+          "title": "GoPlanet Layout na stronę",
+          "thumbnail": "/img/gallery/thumbs/goplanet_web.jpg",
+          "image": "/img/gallery/img/goplanet_web.jpg",
+          "details": "Layout na stronę internetową dla sieci hoteli Goplanet.",
+          "link": "#?id=goplanet"
+        },
+        {
+          "id": "testyiq_web",
+          "title": "TestyIq.org - Strona i system pytań",
+          "thumbnail": "/img/gallery/thumbs/testyiq_web.jpg",
+          "image": "/img/gallery/img/testyiq_web.jpg",
+          "details": "Strona z testami iq, dla której stworzyłem layout oraz baze pytań wraz z systemem wyboru odpowiedzi w systemie Flash/Flex."
+        },
+        {
+          "id": "testeriq_web",
+          "title": "TesterIq.org - Strona i system pytań",
+          "thumbnail": "/img/gallery/thumbs/testeriq_web.jpg",
+          "image": "/img/gallery/img/testeriq_web.jpg",
+          "details": "Strona z testami iq, dla której stworzyłem layout oraz baze pytań wraz z systemem wyboru odpowiedzi w systemie Flash/Flex.",
+          "link": "#?id=testiq"
+        },
+        {
+          "id": "dawid_web",
+          "title": "Layout strony webmastera",
+          "thumbnail": "/img/gallery/thumbs/dawid_web.jpg",
+          "image": "/img/gallery/img/dawid_web.jpg",
+          "details": "Layout strony dla zaprzyjaźnionego webmastera wraz z zaprojektowaniem logotypu.",
+          "link": "#?id=webmaster"
+        },
+        {
+          "id": "pawo_web",
+          "title": "Pawo - Layout strony",
+          "thumbnail": "/img/gallery/thumbs/pawo_web.jpg",
+          "image": "/img/gallery/img/pawo_web.jpg",
+          "details": "Stworzony w eleganckim klimacie kolekcji."
+        },
+        {
+          "id": "barry_web",
+          "title": "Strona z systemem rejestracji",
+          "thumbnail": "/img/gallery/thumbs/barry_web.jpg",
+          "image": "/img/gallery/img/barry_web.jpg",
+          "details": "Barry Callebaut - strona z systemem rejestracji na konferencję.",
+          "link": "#?id=webmaster"
+        },
+        {
+          "id": "sportrecord_web",
+          "title": "SportRecord - Strona internetowa",
+          "thumbnail": "/img/gallery/thumbs/sportrecord_web.jpg",
+          "image": "/img/gallery/img/sportrecord_web.jpg",
+          "details": "Strona z wynikami sportowymi.",
+          "link": "#?id=sportrecord"
+        }
+      ]
+    }
+  ]
+}
