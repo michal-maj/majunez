@@ -196,7 +196,7 @@ const About: FC = () => {
             itemScope
             itemType="http://data-vocabulary.org/Person"
           >
-            <div className="span9 offset3">
+            <div className="span6 offset6">
               <div className="section_header">
                 <h1>
                   <i className="icon-user"></i> Michał Maj{" "}
@@ -204,20 +204,35 @@ const About: FC = () => {
                 </h1>
               </div>
               <p>
-                <b>
-                  Nazywam się <span itemProp="name">Michał Maj</span> i pracuję
-                  jako programista Front End, a także{" "}
-                  <span itemProp="title">grafik</span> /{" "}
-                  <span itemProp="title">animator</span>. Pod względem
-                  graficznym zajmuję się projektowaniem, animacją, wizualizacją
-                  i poligrafią. Robię to już od 8 lat. Od dziecka wykazywałem
-                  zdolności rysunkowe i manualne. <br />
-                  <br /> Moją drugą pasją jest programowanie, co udaje mi się
-                  połączyć w części z moich projektów z grafiką. Z wykształcenia
-                  jestem informatykiem (Wydział Matematyki i Informatyki
-                  Uniwersytetu Łódzkiego), potrafię więc poprawnie i efektywnie
-                  programować w kilku językach.
-                </b>
+                Nazywam się <span itemProp="name">Michał Maj</span> i jestem
+                programistą. <br />
+                <br />
+                Zaczynałem jako <strong>grafik i projektant interfejsów</strong>
+                , zafascynowany tym, jak obraz potrafi przekazać emocje.
+                <br />Z czasem odkryłem, że jeszcze większą satysfakcję daje mi
+                tworzenie tego, <strong>co za tym obrazem stoi</strong> -
+                logiki, interakcji i całych aplikacji.
+                <br />
+                Tak trafiłem do świata programowania. <br />
+                <br />
+                Dziś, po ponad <strong>15 latach w branży</strong>, jestem{" "}
+                <strong>Senior Front-End Engineerem</strong> pracującym z{" "}
+                <strong>Reactem, Node.js i TypeScriptem</strong>.<br />
+                Buduję aplikacje od frontu po backend, projektuję rozwiązania,
+                które są szybkie, intuicyjne i skalowalne.
+                <br />
+                Łączę <strong>techniczne myślenie inżyniera</strong> z{" "}
+                <strong>estetyką projektanta</strong>, dzięki czemu tworzę
+                produkty, które nie tylko działają, ale też dobrze wyglądają i
+                mają sens dla użytkownika.
+                <br />
+                <br />
+                Uwielbiam wyzwania — od złożonych systemów AI po usprawnienia,
+                które oszczędzają zespołom godziny pracy.
+                <br />
+                Wciąż uczę się nowych rzeczy, bo wierzę, że technologia jest
+                najciekawsza wtedy, gdy naprawdę{" "}
+                <strong>rozwiązuje problemy ludzi</strong>.
               </p>
             </div>
           </div>
@@ -239,96 +254,140 @@ const About: FC = () => {
               <div className="row">
                 <div className="span6">
                   <h4>
-                    <i className="icon-list-alt"></i> FRONT END / STRONY
+                    <i className="icon-list-alt"></i> FRONT END / APLIKACJE
                     INTERNETOWE
                   </h4>
                   <p>
-                    Obecnie pracuję jako programista Front End i codziennie
-                    koduję w HTML, CSS, SASS oraz Javascript. Posługuje się
-                    również jQuery, Require JS oraz Prototype. Korzystam z
-                    wbudowanych debuggerów przeglądarkowych oraz pluginów takich
-                    jak Firebug. Dodatkowo wspomagam się tusk runnerami takimi
-                    jak Grunt oraz Docpad, a także Compassem. Do kontroli wersji
-                    używam SVN lub GITa. Obecnie pracuję przy developmencie
-                    stron m.in. Polskich Linii Lotniczych LOT, Orange.pl, NJU
-                    Mobile, PGNiG, DUON, Reiffeisen Polbank, Zakład Ubezpieczeń
-                    Społecznych
+                    Od ponad 15 lat tworzę nowoczesne aplikacje webowe - od
+                    koncepcji po wdrożenie.
+                    <br />
+                    Specjalizuję się w{" "}
+                    <strong>TypeScript, React i Node.js</strong>, pracując dziś
+                    głównie full-stack. Moim celem jest zawsze{" "}
+                    <strong>intuicyjny interfejs</strong>,{" "}
+                    <strong>czysty kod</strong> i{" "}
+                    <strong>realna wartość dla użytkownika</strong>.
+                    <br />
+                    <br />
+                    Na co dzień rozwijam produkty w międzynarodowych zespołach -
+                    ostatnio w amerykańskim startupie <strong>project44</strong>
+                    , gdzie odpowiadałem za projektowanie i rozwój nowych
+                    funkcji front-endowych oraz ich integrację po stronie
+                    back-endu.
+                    <br />
+                    Pracuję z technologiami{" "}
+                    <strong>React, Node.js, Nest.js</strong>, a także{" "}
+                    <strong>Vercel AI SDK, Zod, Jest, Playwright</strong>.
+                    <br />
+                    Uwielbiam łączyć inżynierię z dobrym UX-em - to połączenie,
+                    które daje najlepsze efekty.
+                    <br />
+                    <br /> Jednym z moich autorskich projektów był{" "}
+                    <strong>
+                      silnik do generowania dynamicznych szablonów e-mailowych
+                    </strong>{" "}
+                    w React + Node.js. Zastąpił ręczne tworzenie HTML-ów
+                    komponentami, skracając czas pracy zespołów o ponad{" "}
+                    <strong>60%</strong>. Z małego pomysłu powstało narzędzie
+                    używane firmowo na szeroką skalę.
                   </p>
                 </div>
                 <div className="span6">
                   <h4>
-                    <i className="icon-gamepad"></i> PROGRAMOWANIE GIER I
-                    APLIKACJI
+                    <i className="icon-list-alt"></i> AI / NARZĘDZIA
                   </h4>
                   <p>
-                    Programuję aplikacje na platformę Android z wykorzystaniem
-                    technologii Bluetooth. Programowałem gry i aplikacje z
-                    wykorzystaniem obiektów 3D w programach Flash (ActionScript
-                    3.0), oraz Unity3D (C#).
+                    Najnowszym wyzwaniem, nad którym pracowałem, był{" "}
+                    <strong>
+                      AI Chatbot do zgłaszania problemów w miejscu pracy
+                    </strong>
+                    .<br />
+                    Zintegrowałem go z{" "}
+                    <strong>
+                      mapami Mapbox i zewnętrznym systemem zgłaszania ticketów
+                    </strong>
+                    , dzięki czemu użytkownik może zgłosić usterkę, wskazać
+                    lokalizację na mapie i dodać zdjęcie - a cały proces
+                    tworzenia zgłoszenia odbywa się automatycznie.
+                    <br />
+                    Zastosowałem <strong>
+                      Vercel AI SDK, OpenAPI i Zod
+                    </strong>{" "}
+                    do zarządzania przepływem danych i walidacji, a całość
+                    zbudowałem w <strong>React</strong>.<br />
+                    Projekt znacząco usprawnia proces raportowania i zmniejsza
+                    obciążenie zespołów utrzymaniowych.
+                  </p>
+                </div>
+                <div className="span6">
+                  <h4>
+                    <i className="icon-list-alt"></i> APLIKACJE MOBILNE I
+                    STARTUPY
+                  </h4>
+                  <p>
+                    Mam doświadczenie w pracy z <strong>React Native</strong>,{" "}
+                    <strong>Flutter</strong> i <strong>Androidem</strong>.<br />
+                    Jako współzałożyciel startupu, który łączył{" "}
+                    <strong>zarządzanie zespołem z systemem benefitów</strong>,
+                    odpowiadałem za <strong>koncepcję produktu, UX</strong> i
+                    prowadzenie <strong>zespołu developerskiego</strong>.<br />
+                    Aplikacja pozwalała tworzyć zadania i konkursy dla
+                    pracowników, nagradzając ich punktami za aktywność -
+                    połączenie grywalizacji i HR w jednym.
                   </p>
                 </div>
               </div>
 
               <h2>
-                <i className="icon-edit-sign"></i> Grafika
+                <i className="icon-edit-sign"></i> UX / UI / GRAFIKA
               </h2>
               <div className="row">
-                <div className="span3">
+                <div className="span6">
                   <h4>
                     <i className="icon-facetime-video"></i> ANIMACJE / FILMY /
                     EFEKTY SPECJALNE
                   </h4>
                   <p>
-                    After Effects w połączeniu z 3ds Max'em - to programy, w
-                    których zwykle przygotowuję filmy i animacje wyświetlane na
-                    dużym ekranie podczas eventów. Wymyślanie oraz tworzenie
-                    takich animacji opanowałem do perfekcji, wykorzystując przy
-                    tym najnowsze techniki wizualizacji (m.in. particle,
-                    motiontracking). W temacie animacji czuję się jak ryba w
-                    wodzie.
+                    Zanim zostałem programistą, byłem{" "}
+                    <strong>grafikiem i projektantem interfejsów</strong> - i to
+                    doświadczenie zostało ze mną do dziś.
+                    <br />
+                    Dzięki temu potrafię patrzeć na produkt zarówno oczami
+                    inżyniera, jak i użytkownika.
+                    <br />
+                    Mam doświadczenie w pracy z{" "}
+                    <strong>
+                      Photoshopem, Illustratorem, After Effectsem i 3ds Maxem
+                    </strong>{" "}
+                    - tworzyłem animacje eventowe, wizualizacje 3D i oprawy
+                    wideo dla dużych marek.
+                    <br />
+                    <br />
+                    Dziś to zaplecze przekłada się na{" "}
+                    <strong>dopracowane detale interfejsów</strong> i lepsze
+                    zrozumienie użytkownika.
                   </p>
                 </div>
-                <div className="span3">
-                  <h4>
-                    <i className="icon-eye-open"></i> WIZUALIZACJE 3D
-                  </h4>
-                  <p>
-                    3ds Max (VRay) i Photoshop - korzystam z nich przy tworzeniu
-                    wizualizacji. Począwszy od małych, nieskomplikowanych
-                    przedmiotów jak projekty poligraficzne, poprzez bryły, takie
-                    jak meble - zakończywszy na budynkach wraz z wnętrzem.
-                    Modele oczywiście zawierają odpowiednie tekstury oraz
-                    oświetlenie, dające fotorealistyczny wizerunek. Do projektów
-                    budynków wykorzystuję również AutoCAD.
-                  </p>
-                </div>
-                <div className="span3">
+                <div className="span6">
                   <h4>
                     <i className="icon-fighter-jet"></i> NIETYPOWE PROJEKTY
                   </h4>
                   <p>
-                    Gdy standardy nie wystarczają sięgam po dodatkowe narzędzia.
-                    Strona do oglądania w okularach 3D (czerwone, niebieskie) w
-                    pełnym trójwymiarze, Rozszerzona rzeczywistość
-                    wykorzystująca kamerę (również przez internet), oraz proste
-                    gry, to jedne z takich projektów. Wykorzystuję do tego celu
-                    programy takie jak Adobe Flash, którym posługuje się
-                    perfekcyjnie zarówno w animacji, jak i skryptach
-                    (ActionScript 3.0).
-                  </p>
-                </div>
-                <div className="span3">
-                  <h4>
-                    <i className="icon-picture"></i> POLIGRAFIA, DTP, RYSUNEK,
-                    WYKROJNIKI
-                  </h4>
-                  <p>
-                    Adobe Photoshop, InDesign, Illustrator to programy, które
-                    opanowałem doskonale. Zaprojektowanie i stworzenie grafiki
-                    lub layoutu wraz z przygotowaniem do druku nie stanowi dla
-                    mnie problemu. Na koncie mam dziesiątki wydrukowanych
-                    poprawnie projektów, również o nietypowych kształtach, do
-                    których sam tworzę wykrojniki. Mam też zdolności rysunkowe.
+                    Lubię wychodzić poza schematy.
+                    <br />
+                    <br />W przeszłości tworzyłem:
+                    <li>
+                      <strong>strony 3D</strong> oglądane w okularach
+                      anaglifowych,
+                    </li>
+                    <li>
+                      <strong>projekty AR</strong> z wykorzystaniem kamery
+                      internetowej,
+                    </li>
+                    <li>
+                      <strong>gry i animacje interaktywne</strong> w Flash
+                      (ActionScript 3.0) i Unity3D (C#).
+                    </li>
                   </p>
                 </div>
               </div>
