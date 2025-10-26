@@ -1,5 +1,7 @@
 import type { FC } from "react";
 
+import { withBasePath } from "../utils/path";
+
 const Contact: FC = () => {
   return (
     <div id="contact">
@@ -18,7 +20,10 @@ const Contact: FC = () => {
                 </h2>
                 <h4>Napisz email!</h4>
                 <h4 className="addresses">
-                  <img src="/img/majunez-em.png" alt="Email" />
+                  <img
+                    src={withBasePath("/img/majunez-em.png")}
+                    alt="Email"
+                  />
                 </h4>
                 <p>
                   Napisz do mnie maila, postaram się odpisać jak najszybciej.

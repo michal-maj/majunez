@@ -1,6 +1,8 @@
 import type { FC } from "react";
 import React, { useEffect } from "react";
 
+import { withBasePath } from "../utils/path";
+
 // Animated hero title logic
 const animatedWords = [
   "Michał",
@@ -302,9 +304,18 @@ const Start: FC = () => {
             playsInline
             preload="metadata"
           >
-            <source src="/assets/majunez_bg.webm" type="video/webm" />
-            <source src="/assets/majunez_bg.mp4" type="video/mp4" />
-            <source src="/assets/majunez_bg.ogv" type="video/ogg" />
+            <source
+              src={withBasePath("/assets/majunez_bg.webm")}
+              type="video/webm"
+            />
+            <source
+              src={withBasePath("/assets/majunez_bg.mp4")}
+              type="video/mp4"
+            />
+            <source
+              src={withBasePath("/assets/majunez_bg.ogv")}
+              type="video/ogg"
+            />
           </video>
         </div>
         <div className="container hero-content">
@@ -333,7 +344,7 @@ const Start: FC = () => {
           {/* <div className="row">
             <div className="span12">
               <img
-                src="/img/majunez_logo_big.png"
+                src={withBasePath("/img/majunez_logo_big.png")}
                 alt="Majunez Logo"
                 className="hero-logo"
               />
@@ -421,15 +432,21 @@ const Start: FC = () => {
                 postanowił przyjąć go jako swój herb :)
               </p>
               <img
-                src="/img/gallery/img/zaksa_fanclub.jpg"
+                src={withBasePath("/img/gallery/img/zaksa_fanclub.jpg")}
                 alt="Zaksa Fanclub"
               />
             </div>
             <div className="span7 ytv">
-              <img src="/img/gallery/img/zaksa_tsirt.jpg" alt="Zaksa Tshirt" />
+              <img
+                src={withBasePath("/img/gallery/img/zaksa_tsirt.jpg")}
+                alt="Zaksa Tshirt"
+              />
             </div>
             <div className="span5">
-              <img src="/img/gallery/img/zaksa_hala.jpg" alt="Zaksa Hala" />
+              <img
+                src={withBasePath("/img/gallery/img/zaksa_hala.jpg")}
+                alt="Zaksa Hala"
+              />
             </div>
             <a href="#?id=sub/zaksa" className="seemore1">
               <i className="icon-folder-open"></i> Zobacz Projekt
@@ -460,12 +477,15 @@ const Start: FC = () => {
                 dawnych restauracji w USA.
               </p>
               <img
-                src="/img/gallery/img/wiz_25b.jpg"
+                src={withBasePath("/img/gallery/img/wiz_25b.jpg")}
                 alt="Restauracja Wizualizacja"
               />
             </div>
             <div className="span7 ytv">
-              <img src="/img/restauracja_start.jpg" alt="Restauracja Start" />
+              <img
+                src={withBasePath("/img/restauracja_start.jpg")}
+                alt="Restauracja Start"
+              />
             </div>
             <a href="#?id=sub/restauracja" className="seemore1">
               <i className="icon-folder-open"></i> Zobacz Projekt
@@ -491,10 +511,16 @@ const Start: FC = () => {
                 niebieskiej wykładziny, biało-czerwonych obrusów nawiązuje do
                 dawnych restauracji w USA.
               </p>
-              <img src="/img/zwyciestwo1.jpg" alt="Zwycięstwo" />
+              <img
+                src={withBasePath("/img/zwyciestwo1.jpg")}
+                alt="Zwycięstwo"
+              />
             </div>
             <div className="span8 ytv">
-              <img src="/img/gallery/img/log_2.jpg" alt="Projekt Logo" />
+              <img
+                src={withBasePath("/img/gallery/img/log_2.jpg")}
+                alt="Projekt Logo"
+              />
             </div>
             <a href="#?id=sub/srodowiskologo" className="seemore1">
               <i className="icon-folder-open"></i> Zobacz Projekt

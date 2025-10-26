@@ -1,5 +1,6 @@
 import type { FC, MouseEvent } from "react";
 
+import { withBasePath } from "../../utils/path";
 import { type FilterLink, type NavLink } from "../../types/navigation";
 import FilterNav from "./FilterNav";
 import MainNav from "./MainNav";
@@ -24,9 +25,16 @@ const LayoutHeader: FC<LayoutHeaderProps> = ({
     <div className="navbar navbar-fixed-top">
       <div className="navbar-inner">
         <div className="container">
-          <a className="brand" href="/start" onClick={handleBrandClick}>
+          <a
+            className="brand"
+            href={withBasePath("/start")}
+            onClick={handleBrandClick}
+          >
             <div className="brand-logo">
-              <img src="/img/logo.png" alt="Majunez - Michał Maj Portfolio" />
+              <img
+                src={withBasePath("/img/logo.png")}
+                alt="Majunez - Michał Maj Portfolio"
+              />
             </div>
             <h1 className="brand-txt">Majunez.pl Michał Maj Portfolio</h1>
           </a>

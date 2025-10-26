@@ -1,5 +1,6 @@
 import type { FC, MouseEvent } from "react";
 
+import { withBasePath } from "../../utils/path";
 import type { NavLink } from "../../types/navigation";
 
 interface MainNavProps {
@@ -21,7 +22,10 @@ const MainNav: FC<MainNavProps> = ({ links, onNavigate }) => {
     <ul className="nav nav1">
       {links.map(({ path, label, icon }) => (
         <li key={path}>
-          <a href={path} onClick={(event) => handleClick(event, path)}>
+          <a
+            href={withBasePath(path)}
+            onClick={(event) => handleClick(event, path)}
+          >
             {icon && <i className={icon}></i>} {label}
           </a>
         </li>

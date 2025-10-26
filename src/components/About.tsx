@@ -12,6 +12,8 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
+import { withBasePath } from "../utils/path";
+
 const About: FC = () => {
   useEffect(() => {
     const $ = window.$ as any;
@@ -436,19 +438,31 @@ const About: FC = () => {
             <div className="span4">
               <div className="row">
                 <div className="span2">
-                  <img src="/img/magisterka1.jpg" alt="Magisterka 1" />
+                  <img
+                    src={withBasePath("/img/magisterka1.jpg")}
+                    alt="Magisterka 1"
+                  />
                 </div>
                 <div className="span2">
-                  <img src="/img/magisterka2.jpg" alt="Magisterka 2" />
+                  <img
+                    src={withBasePath("/img/magisterka2.jpg")}
+                    alt="Magisterka 2"
+                  />
                 </div>
               </div>
               <br />
               <div className="row">
                 <div className="span2">
-                  <img src="/img/magisterka3.jpg" alt="Magisterka 3" />
+                  <img
+                    src={withBasePath("/img/magisterka3.jpg")}
+                    alt="Magisterka 3"
+                  />
                 </div>
                 <div className="span2">
-                  <img src="/img/magisterka4.jpg" alt="Magisterka 4" />
+                  <img
+                    src={withBasePath("/img/magisterka4.jpg")}
+                    alt="Magisterka 4"
+                  />
                 </div>
               </div>
             </div>
