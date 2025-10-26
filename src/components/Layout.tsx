@@ -10,7 +10,7 @@ import LayoutHeader from "./layout/LayoutHeader";
 
 const NAV_LINKS: NavLink[] = [
   { path: "/start", label: "START", icon: "icon-play-sign" },
-  { path: "/portfolio", label: "PORTFOLIO", icon: "icon-folder-open" },
+  { path: "/portfolio", label: "GRAFIKA", icon: "icon-folder-open" },
   { path: "/omnie", label: "O MNIE", icon: "icon-user" },
   //   { path: "/kontakt", label: "KONTAKT", icon: "icon-envelope-alt" },
 ];

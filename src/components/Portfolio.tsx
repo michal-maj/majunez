@@ -22,7 +22,7 @@ const Portfolio = () => {
       <div className="container" id="gallery">
         <div className="section_header">
           <h1>
-            <i className="icon-folder-open"></i> Portfolio
+            <i className="icon-folder-open"></i> Grafika
           </h1>
         </div>
         <div className="row">

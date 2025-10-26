@@ -1,6 +1,15 @@
 import type { FC } from "react";
 import React, { useEffect } from "react";
 
+// Animated hero title logic
+const animatedWords = [
+  "Michał",
+  "programistą",
+  "designerem",
+  "developerem",
+  "twórcą",
+];
+
 const Start: FC = () => {
   useEffect(() => {
     const timeoutIds: number[] = [];
@@ -10,12 +19,111 @@ const Start: FC = () => {
       timeoutIds.push(id);
     };
 
+    let lastViewportHeight = -1;
+    let initialHeaderHeight: number | null = null;
+
+    const measureHeaderHeight = ($: typeof window.$): number => {
+      const fixedNavbarHeight = $(".navbar.navbar-fixed-top").outerHeight();
+      const navbarHeight = $(".navbar").outerHeight();
+
+      return Number(fixedNavbarHeight ?? navbarHeight ?? 0);
+    };
+
+    const getInitialHeaderHeight = ($: typeof window.$): number => {
+      if (initialHeaderHeight === null) {
+        initialHeaderHeight = measureHeaderHeight($);
+      }
+
+      return initialHeaderHeight;
+    };
+
+    const updateHeroHeight = (viewportOverride?: number) => {
+      const $ = window.$;
+
+      if (!$) {
+        return;
+      }
+
+      const $hero = $(".hero-intro");
+
+      if (!$hero.length) {
+        return;
+      }
+
+      const viewportHeight = viewportOverride ?? $(window).height();
+      const headerHeight = getInitialHeaderHeight($);
+      const targetHeight = Math.max(viewportHeight - headerHeight, 420);
+
+      const paddingTop = parseFloat($hero.css("padding-top") ?? "0");
+      const paddingBottom = parseFloat($hero.css("padding-bottom") ?? "0");
+      const verticalPadding = paddingTop + paddingBottom;
+
+      const contentHeight = Math.max(targetHeight - verticalPadding, 320);
+
+      $hero.css({
+        height: contentHeight,
+        "min-height": contentHeight,
+      });
+    };
+
+    const centerSubsectionRows = () => {
+      const $ = window.$;
+
+      if (!$) {
+        return;
+      }
+
+      $(".subsectionrow").each(function (this: HTMLElement) {
+        const $section = $(this).closest(".subsection");
+        const subsectionHeight = $section.height();
+        const rowHeight = $(this).height();
+        const calculatedMargin = (subsectionHeight - rowHeight) / 2;
+
+        $(this).css(
+          "margin-top",
+          calculatedMargin > 50 ? calculatedMargin : 50
+        );
+      });
+    };
+
+    const applySectionHeights = ({ force = false } = {}) => {
+      const $ = window.$;
+
+      if (!$) {
+        return;
+      }
+
+      const viewportHeight = $(window).height();
+
+      if (!force) {
+        if (viewportHeight === lastViewportHeight) {
+          return;
+        }
+      }
+
+      lastViewportHeight = viewportHeight;
+
+      const sectionHeight = Math.max(viewportHeight, 420);
+
+      $(".full-page1").css("min-height", sectionHeight);
+      $(".full-page").css("min-height", sectionHeight);
+
+      $("#start4").css({
+        "margin-bottom": "0",
+        "padding-bottom": "40px",
+      });
+
+      updateHeroHeight(viewportHeight);
+      schedule(() => updateHeroHeight(viewportHeight), 250);
+      schedule(centerSubsectionRows);
+    };
+
     const handleParallax = () => {
       const scrolled = window.pageYOffset;
 
       // Parallax for subsections
       const sections = document.querySelectorAll(".subsection");
-      sections.forEach((section, index) => {
+      sections.forEach((section) => {
         const sectionTop = (section as HTMLElement).offsetTop;
         const sectionHeight = (section as HTMLElement).offsetHeight;
         const windowHeight = window.innerHeight;
@@ -105,59 +213,6 @@ const Start: FC = () => {
       });
     };
 
-    const updateHeroHeight = () => {
-      const $ = window.$;
-
-      if (!$) {
-        return;
-      }
-
-      const $hero = $(".hero-intro");
-
-      if (!$hero.length) {
-        return;
-      }
-
-      const headerHeight =
-        $(".navbar.navbar-fixed-top").outerHeight() ??
-        $(".navbar").outerHeight() ??
-        0;
-
-      const viewportHeight = $(window).height();
-      const targetHeight = Math.max(viewportHeight - headerHeight, 420);
-
-      const paddingTop = parseFloat($hero.css("padding-top") ?? "0");
-      const paddingBottom = parseFloat($hero.css("padding-bottom") ?? "0");
-      const verticalPadding = paddingTop + paddingBottom;
-
-      const contentHeight = Math.max(targetHeight - verticalPadding, 320);
-
-      $hero.css({
-        height: contentHeight,
-        "min-height": contentHeight,
-      });
-    };
-
-    const centerSubsectionRows = () => {
-      const $ = window.$;
-
-      if (!$) {
-        return;
-      }
-
-      $(".subsectionrow").each(function (this: HTMLElement) {
-        const $section = $(this).closest(".subsection");
-        const subsectionHeight = $section.height();
-        const rowHeight = $(this).height();
-        const calculatedMargin = (subsectionHeight - rowHeight) / 2;
-
-        $(this).css(
-          "margin-top",
-          calculatedMargin > 50 ? calculatedMargin : 50
-        );
-      });
-    };
-
     const initStart = () => {
       const $ = window.$;
 
@@ -165,37 +220,11 @@ const Start: FC = () => {
         return;
       }
 
-      $(".full-page1").css("min-height", $(window).height() - 160);
-      $(".full-page").css("min-height", $(window).height() - 60);
-
-      $("#start4").css({
-        "margin-bottom": "0",
-        "padding-bottom": "40px",
-      });
-
-      updateHeroHeight();
-      schedule(updateHeroHeight, 250);
-      schedule(centerSubsectionRows);
+      applySectionHeights({ force: true });
     };
 
     const handleResize = () => {
-      const $ = window.$;
-
-      if (!$) {
-        return;
-      }
-
-      $(".full-page1").css("min-height", $(window).height() - 160);
-      $(".full-page").css("min-height", $(window).height() - 60);
-
-      $("#start4").css({
-        "margin-bottom": "0",
-        "padding-bottom": "40px",
-      });
-
-      updateHeroHeight();
-      schedule(updateHeroHeight, 250);
-      schedule(centerSubsectionRows);
+      applySectionHeights({ force: true });
     };
 
     initStart();
@@ -216,14 +245,6 @@ const Start: FC = () => {
     };
   }, []);
 
-  // Animated hero title logic
-  const animatedWords = [
-    "Michał",
-    "programistą",
-    "designerem",
-    "developerem",
-    "twórcą",
-  ];
   const [currentWordIndex, setCurrentWordIndex] = React.useState(0);
   const [displayedText, setDisplayedText] = React.useState(animatedWords[0]);
   const [isDeleting, setIsDeleting] = React.useState(false);
@@ -232,11 +253,10 @@ const Start: FC = () => {
 
   useEffect(() => {
     let typingTimeout: number;
-    let blinkTimeout: number;
     const currentWord = animatedWords[currentWordIndex];
 
     // Blinking cursor effect
-    blinkTimeout = window.setTimeout(() => {
+    const blinkTimeout = window.setTimeout(() => {
       setBlink((b) => !b);
     }, 500);
 
